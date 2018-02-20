@@ -171,35 +171,6 @@
 <dimension x1="0" y1="-0.6" x2="38.1" y2="-0.7" x3="19.0374" y3="-5.450490625" textsize="1.778" layer="47"/>
 </plain>
 <libraries>
-<library name="SparkFun-Capacitors">
-<description>&lt;h3&gt;SparkFun Capacitors&lt;/h3&gt;
-This library contains capacitors. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="0805">
-<description>&lt;p&gt;&lt;b&gt;Generic 2012 (0805) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<text x="0" y="0.889" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.889" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.0508" layer="39"/>
-<wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.0508" layer="39"/>
-<wire x1="1.5" y1="-0.8" x2="-1.5" y2="-0.8" width="0.0508" layer="39"/>
-<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="0.8" width="0.0508" layer="39"/>
-</package>
-</packages>
-</library>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
 Based on the previous libraries:
@@ -2612,17 +2583,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="SparkFun-Capacitors" package="0805" value="10uF" x="15.285" y="53.476" smashed="yes" rot="R270">
-<attribute name="PROD_ID" value="CAP-11330" x="15.285" y="53.476" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="14.396" y="53.476" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF" x="15.285" y="53.476" smashed="yes" rot="R270">
+<attribute name="SPICEPREFIX" value="C" x="15.285" y="53.476" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="5.586" y="32.179" smashed="yes" rot="R270">
 <attribute name="SPICEPREFIX" value="C" x="5.586" y="32.179" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="3.046" y="33.449" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C2" library="SparkFun-Capacitors" package="0805" value="10uF" x="12.144" y="42.796" smashed="yes" rot="R270">
-<attribute name="PROD_ID" value="CAP-11330" x="12.144" y="42.796" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="11.255" y="42.796" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF" x="12.144" y="42.796" smashed="yes" rot="R270">
+<attribute name="SPICEPREFIX" value="C" x="12.144" y="42.796" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1.0uF" x="5.954" y="52.567" smashed="yes" rot="R90">
 <attribute name="SPICEPREFIX" value="C" x="5.954" y="52.567" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2871,7 +2840,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="17.152" y1="46.348" x2="17.152" y2="45.3705" width="0.254" layer="1"/>
 <wire x1="10.976" y1="42.672" x2="11.43" y2="42.926" width="0.254" layer="1"/>
 <wire x1="11.938" y1="42.926" x2="11.43" y2="42.926" width="0.254" layer="1"/>
-<wire x1="12.144" y1="43.696" x2="14.299" y2="43.796" width="0.254" layer="1"/>
+<wire x1="12.144" y1="43.746" x2="14.299" y2="43.796" width="0.254" layer="1"/>
 <wire x1="14.299" y1="43.796" x2="14.39" y2="43.887" width="0.254" layer="1"/>
 <wire x1="15.74" y1="43.558" x2="15.24" y2="44.058" width="0.254" layer="1"/>
 <wire x1="7.985" y1="33.129" x2="7.953" y2="33.161" width="0.254" layer="1"/>
@@ -2909,7 +2878,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="16.465" y1="47" x2="16.602" y2="46.863" width="0.254" layer="1"/>
 <wire x1="13.664" y1="45.9049" x2="13.664" y2="44.613" width="0.254" layer="1"/>
 <wire x1="13.664" y1="44.613" x2="14.39" y2="43.887" width="0.254" layer="1"/>
-<wire x1="12.144" y1="43.696" x2="12.144" y2="43.132" width="0.254" layer="1"/>
+<wire x1="12.144" y1="43.746" x2="12.144" y2="43.132" width="0.254" layer="1"/>
 <wire x1="12.144" y1="43.132" x2="11.938" y2="42.926" width="0.254" layer="1"/>
 <wire x1="10.5" y1="40.682" x2="10.976" y2="41.158" width="0.254" layer="1"/>
 <wire x1="10.5" y1="40.682" x2="11.167178125" y2="40.682" width="0.254" layer="1"/>
@@ -3085,9 +3054,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="19.4011125" y1="6.980459375" x2="17.365" y2="9.016571875" width="0.3048" layer="1"/>
 <wire x1="5.964" y1="9" x2="17.4" y2="9" width="0.3048" layer="16"/>
 <wire x1="6.105" y1="35.052" x2="6.858" y2="35.052" width="0.3048" layer="1"/>
-<wire x1="15.285" y1="55.085" x2="15.285" y2="54.376" width="0.3048" layer="1"/>
+<wire x1="15.285" y1="55.085" x2="15.285" y2="54.426" width="0.3048" layer="1"/>
 <wire x1="16.19" y1="55.99" x2="15.285" y2="55.085" width="0.3048" layer="1"/>
-<wire x1="15.285" y1="54.376" x2="15.285" y2="53.687" width="0.3048" layer="1"/>
+<wire x1="15.285" y1="54.426" x2="15.285" y2="53.687" width="0.3048" layer="1"/>
 <wire x1="15.285" y1="53.687" x2="15.254" y2="53.656" width="0.254" layer="1"/>
 <wire x1="15.254" y1="53.656" x2="14.29" y2="53.656" width="0.3048" layer="1"/>
 <wire x1="14.29" y1="53.656" x2="13.664" y2="53.03" width="0.3048" layer="1"/>

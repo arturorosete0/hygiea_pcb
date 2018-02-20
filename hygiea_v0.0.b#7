@@ -2724,9 +2724,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PROD_ID" value="XTAL-08900" x="11.546" y="16.901" size="1.778" layer="27" rot="R225" display="off"/>
 </element>
 <element name="BLE/ICSP" library="adafruit" package="1X10-BIG" value="PINHD-1X10" x="13.981" y="2.501"/>
-<element name="RST" library="SparkFun-Switches" package="TACTILE_SWITCH_SMD_5.2MM" value="" x="8" y="10" rot="R90">
+<element name="RST" library="SparkFun-Switches" package="TACTILE_SWITCH_SMD_5.2MM" value="" x="8" y="10" smashed="yes" rot="R90">
+<attribute name="NAME" x="4.833" y="10" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="SWCH-08247" x="8" y="10" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SF_SKU" value="COM-08720" x="8" y="10" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="10.667" y="10" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="R7" library="adafruit" package="R0805" value="1k" x="7.1" y="15.1" smashed="yes" rot="R180">
 <attribute name="VALUE" x="7.862" y="17.386" size="1.27" layer="27" rot="R180"/>
@@ -2760,8 +2762,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="R11" library="adafruit" package="R0805" value="" x="30.6" y="33"/>
 <element name="R12" library="adafruit" package="R0805" value="" x="30.6" y="22.5"/>
 <element name="R13" library="adafruit" package="R0805" value="" x="30.8" y="11.6"/>
-<element name="ON/OFF" library="adafruit" package="CHIP-LED0805" value="" x="30.8" y="4.7" rot="R270"/>
-<element name="R14" library="adafruit" package="R0805" value="" x="30.8" y="8.3" rot="R180"/>
+<element name="ON/OFF" library="adafruit" package="CHIP-LED0805" value="" x="30.8" y="4.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="28.53" y="1.67" size="1.27" layer="25"/>
+<attribute name="VALUE" x="29.53" y="2.16" size="1.27" layer="27"/>
+</element>
+<element name="R14" library="adafruit" package="R0805" value="" x="30.8" y="8.3" smashed="yes" rot="R180">
+<attribute name="VALUE" x="31.562" y="10.586" size="1.27" layer="27" rot="R180"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">

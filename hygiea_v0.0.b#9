@@ -2726,7 +2726,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PROD_ID" value="SWCH-08247" x="8" y="10" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SF_SKU" value="COM-08720" x="8" y="10" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R7" library="adafruit" package="R0805" value="1k" x="7.1" y="15.1" rot="R180"/>
+<element name="R7" library="adafruit" package="R0805" value="1k" x="7.1" y="15.1" smashed="yes" rot="R180">
+<attribute name="VALUE" x="7.862" y="17.386" size="1.27" layer="27" rot="R180"/>
+</element>
 <element name="R8" library="adafruit" package="R0805" value="10k" x="14.8" y="19.8" smashed="yes" rot="R270">
 <attribute name="VALUE" x="12.514" y="20.562" size="1.27" layer="27" rot="R270"/>
 </element>

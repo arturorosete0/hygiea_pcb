@@ -3056,10 +3056,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="6.105" y1="35.052" x2="6.858" y2="35.052" width="0.3048" layer="1"/>
 <wire x1="15.285" y1="55.085" x2="15.285" y2="54.426" width="0.3048" layer="1"/>
 <wire x1="16.19" y1="55.99" x2="15.285" y2="55.085" width="0.3048" layer="1"/>
-<wire x1="15.285" y1="54.426" x2="15.285" y2="53.687" width="0.3048" layer="1"/>
-<wire x1="15.285" y1="53.687" x2="15.254" y2="53.656" width="0.254" layer="1"/>
-<wire x1="15.254" y1="53.656" x2="14.29" y2="53.656" width="0.3048" layer="1"/>
-<wire x1="14.29" y1="53.656" x2="13.664" y2="53.03" width="0.3048" layer="1"/>
 <wire x1="10.339" y1="53.9" x2="10.339" y2="53.739" width="0.3048" layer="1"/>
 <wire x1="13.664" y1="48.5051" x2="13.664" y2="52" width="0.3048" layer="1"/>
 <wire x1="13.664" y1="52" x2="13.664" y2="53.03" width="0.3048" layer="1"/>
@@ -3119,6 +3115,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="10.339" y1="49.661" x2="10.578" y2="49.422" width="0.254" layer="1"/>
 <wire x1="10.339" y1="55.005" x2="10.339" y2="53.9" width="0.254" layer="1"/>
 <wire x1="8.339" y1="55.005" x2="8.339" y2="53.764" width="0.254" layer="1"/>
+<wire x1="13.664" y1="53.03" x2="15.06" y2="54.426" width="0.3048" layer="1"/>
+<wire x1="15.06" y1="54.426" x2="15.285" y2="54.426" width="0.3048" layer="1"/>
 </signal>
 <signal name="INT_3V">
 <contactref element="U2" pad="14"/>
@@ -3163,10 +3161,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U3" pad="4"/>
 <wire x1="18.049" y1="48.323" x2="18.034" y2="48.323" width="0.254" layer="1"/>
 <wire x1="18.034" y1="48.323" x2="15.504" y2="48.323" width="0.254" layer="1"/>
-<wire x1="15.504" y1="48.323" x2="15.503" y2="48.322" width="0.254" layer="1"/>
 <wire x1="17.652" y1="45.3705" x2="17.652" y2="46.989" width="0.254" layer="1"/>
 <wire x1="17.652" y1="46.989" x2="18.034" y2="47.371" width="0.254" layer="1"/>
 <wire x1="18.034" y1="47.371" x2="18.034" y2="48.323" width="0.254" layer="1"/>
+<wire x1="18.049" y1="48.323" x2="15.504" y2="48.323" width="0.3048" layer="1"/>
+<wire x1="15.504" y1="48.323" x2="15.503" y2="48.322" width="0.3048" layer="1"/>
 </signal>
 <signal name="XOUT_A">
 <contactref element="U2" pad="26"/>
@@ -3178,6 +3177,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="18.152" y1="46.473" x2="18.152" y2="45.3705" width="0.3048" layer="1"/>
 <wire x1="21.3" y1="47.208" x2="18.887" y2="47.208" width="0.3048" layer="1"/>
 <wire x1="18.887" y1="47.208" x2="18.152" y2="46.473" width="0.3048" layer="1"/>
+<wire x1="21.249" y1="48.323" x2="23.617" y2="48.323" width="0.3048" layer="1"/>
+<wire x1="23.617" y1="48.323" x2="23.668" y2="48.272" width="0.3048" layer="1"/>
 </signal>
 <signal name="IN/TRIG">
 <contactref element="MOTOR" pad="P$4"/>

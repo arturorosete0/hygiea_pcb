@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -2948,13 +2948,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R3" pad="1"/>
 <contactref element="D1" pad="A"/>
 <contactref element="U2" pad="11"/>
-<wire x1="14.694" y1="37.734" x2="14.694" y2="38.494" width="0.254" layer="1"/>
 <wire x1="19.7224" y1="38.7284" x2="19.736" y2="38.742" width="0.254" layer="1"/>
-<wire x1="14.9284" y1="38.7284" x2="19.7224" y2="38.7284" width="0.254" layer="1"/>
-<wire x1="14.694" y1="38.494" x2="14.9284" y2="38.7284" width="0.254" layer="1"/>
 <wire x1="19.736" y1="38.742" x2="19.736" y2="40.92" width="0.254" layer="1"/>
 <wire x1="19.152" y1="41.504" x2="19.736" y2="40.92" width="0.254" layer="1"/>
 <wire x1="19.152" y1="42.2455" x2="19.152" y2="41.504" width="0.254" layer="1"/>
+<wire x1="14.694" y1="37.734" x2="15.6884" y2="38.7284" width="0.254" layer="1"/>
+<wire x1="15.6884" y1="38.7284" x2="19.7224" y2="38.7284" width="0.254" layer="1"/>
 </signal>
 <signal name="SDA_5V">
 <contactref element="Q1" pad="3"/>
