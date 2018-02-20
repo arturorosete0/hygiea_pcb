@@ -2715,8 +2715,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="SPICEPREFIX" value="C" x="12.138" y="52.859" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="14.678" y="51.589" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="AT-328P" library="SparkFun-IC-Microcontroller" package="TQFP32-08" value="ATMEGA328P_TQFP" x="17.78" y="11.43" rot="R315">
+<element name="AT-328P" library="SparkFun-IC-Microcontroller" package="TQFP32-08" value="ATMEGA328P_TQFP" x="17.78" y="11.43" smashed="yes" rot="R315">
+<attribute name="NAME" x="17.806065625" y="11.305496875" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="IC-09069" x="17.78" y="11.43" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="VALUE" x="13.289871875" y="6.939871875" size="0.6096" layer="27" font="vector" ratio="20" rot="R315" align="bottom-center"/>
 </element>
 <element name="XC" library="SparkFun-Clocks" package="RESONATOR-SMD-3.2X1.3" value="16MHz" x="11.546" y="16.901" rot="R225">
 <attribute name="PROD_ID" value="XTAL-08900" x="11.546" y="16.901" size="1.778" layer="27" rot="R225" display="off"/>

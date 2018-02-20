@@ -163,7 +163,7 @@
 <wire x1="37.91" y1="61.814" x2="0" y2="61.714" width="0" layer="20"/>
 <wire x1="0" y1="61.714" x2="0" y2="0" width="0" layer="20"/>
 <text x="34.86" y="58.55" size="1.778" layer="22" rot="MR0">v0.1</text>
-<text x="33.1" y="56.9" size="0.8128" layer="22" rot="MR270">@arturorosete2</text>
+<text x="31.4" y="56.9" size="0.8128" layer="22" rot="MR270">@arturorosete2</text>
 <dimension x1="0" y1="0" x2="0" y2="61.714" x3="-15" y3="30.857" textsize="1.778" layer="51"/>
 <dimension x1="-0.1" y1="-1.7" x2="28.5" y2="-1.7" x3="14.2" y3="-3.8" textsize="1.778" layer="51"/>
 <dimension x1="0" y1="0" x2="38.037" y2="0.1" x3="19.03985625" y3="-8.07324375" textsize="1.778" layer="51"/>
